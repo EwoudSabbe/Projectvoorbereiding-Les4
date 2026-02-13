@@ -73,6 +73,89 @@
           <textarea name="bericht" required></textarea>
         </label>
 
+        <button type="submit">Send</button>
+
+      </form>
+    </section>
+
+  </main>
+
+</body>
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+
+  <!-- CSS koppelen -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="wrap">
+
+    <section class="card hero">
+      <div class="badge">
+        <span class="dot"></span>
+        Neem contact op
+      </div>
+
+      <h1>Contact</h1>
+      <p>Stuur een bericht via het formulier of gebruik één van de contactgegevens hieronder.</p>
+
+      <div class="info">
+        <a href="mailto:info@voorbeeld.be">
+          <span class="icon">✉️</span>
+          info@voorbeeld.be
+        </a>
+
+        <a href="tel:+32123456789">
+          <span class="icon">📞</span>
+          +32 123 45 67 89
+        </a>
+
+        <span>
+          <span class="icon">📍</span>
+          Kortrijk, België
+        </span>
+      </div>
+    </section>
+
+
+    <section class="card form">
+      <h2>Stuur een bericht</h2>
+
+      <form action="#" method="post">
+
+        <div class="row">
+          <label>
+            Voornaam
+            <input type="text" name="voornaam" required>
+          </label>
+
+          <label>
+            Achternaam
+            <input type="text" name="achternaam" required>
+          </label>
+        </div>
+
+        <label>
+          E-mail
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Onderwerp
+          <input type="text" name="onderwerp" required>
+        </label>
+
+        <label>
+          Bericht
+          <textarea name="bericht" required></textarea>
+        </label>
+
         <button type="submit">Verstuur</button>
 
       </form>
