@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Car Track Day!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background: url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c') center/cover no-repeat;
+            padding: 120px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: #c00000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #c00000;
+        }
+
+        .card {
+            background-color: #1c1c1c;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #c00000;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        form input, form select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: none;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>American Car Track Day 2026</h1>
+    <p>Pure Power. Pure Sound. Pure American Muscle.</p>
+</header>
+
+<nav>
+    <a href="#info">Info</a>
+    <a href="#schedule">Planning</a>
+    <a href="#register">Inschrijven</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="info">
+    <h2>Event Info</h2>
+    <div class="card">
+        <p><strong>Datum:</strong> 12 Juli 2026</p>
+        <p><strong>Locatie:</strong> Circuit Zolder, België</p>
+        <p>
+            Een exclusieve track day voor liefhebbers van Amerikaanse wagens:
+            Mustangs, Camaros, Corvettes, Chargers en meer!
+        </p>
+        <p>
+            Open pitlane, tijdsregistratie en professionele begeleiding beschikbaar.
+        </p>
+    </div>
+</section>
+
+<section id="schedule">
+    <h2>Planning</h2>
+    <div class="card">
+        <p>08:00 – Ontvangst & inschrijving</p>
+        <p>09:00 – Drivers briefing</p>
+        <p>09:30 – Open pitlane start</p>
+        <p>12:30 – Lunchpauze</p>
+        <p>13:30 – Track sessies hervatten</p>
+        <p>17:00 – Einde evenement</p>
+    </div>
+</section>
+
+<section id="register">
+    <h2>Inschrijven</h2>
+    <div class="card">
+        <form>
+            <input type="text" placeholder="Naam" required>
+            <input type="email" placeholder="E-mailadres" required>
+            <input type="text" placeholder="Auto (bv. Ford Mustang GT)" required>
+            <select required>
+                <option value="">Kies categorie</option>
+                <option value="street">Street</option>
+                <option value="pro">Pro</option>
+            </select>
+            <input type="submit" value="Inschrijven" class="btn">
+        </form>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: info@americancartrackday.be</p>
+        <p>Telefoon: +32 400 00 00 00</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 American Car Track Day | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
